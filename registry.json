@@ -1,0 +1,52 @@
+{
+  "servers": [
+    {
+      "server": {
+        "name": "filesystem",
+        "title": "Filesystem",
+        "description": "Read and write files on the local filesystem",
+        "version": "2025.1.7",
+        "packages": [
+          {
+            "registryType": "npm",
+            "identifier": "@modelcontextprotocol/server-filesystem",
+            "transport": { "type": "stdio" },
+            "packageArguments": [
+              { "type": "positional", "value": "/tmp" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "server": {
+        "name": "fetch",
+        "title": "Fetch",
+        "description": "Fetch and extract content from URLs",
+        "version": "2025.1.7",
+        "packages": [
+          {
+            "registryType": "npm",
+            "identifier": "@modelcontextprotocol/server-fetch",
+            "transport": { "type": "stdio" }
+          }
+        ]
+      }
+    },
+    {
+      "server": {
+        "name": "memory",
+        "title": "Memory",
+        "description": "Knowledge graph-based persistent memory",
+        "version": "2025.1.7",
+        "packages": [
+          {
+            "registryType": "npm",
+            "identifier": "@modelcontextprotocol/server-memory",
+            "transport": { "type": "stdio" }
+          }
+        ]
+      }
+    }
+  ]
+}
