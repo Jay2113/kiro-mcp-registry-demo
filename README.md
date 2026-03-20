@@ -1,0 +1,1 @@
+# kiro-mcp-registry-demo
